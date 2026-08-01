@@ -77,7 +77,7 @@ export default function Home() {
 
             <div className="flex items-center gap-4">
 
-  <div className="w-16 h-16 rounded-full border-2 border-green-500 flex items-center justify-center">
+  <div className="w-14 h-14 rounded-full border-2 border-green-500 flex items-center justify-center">
 
     <FaWhatsapp
       size={26}
