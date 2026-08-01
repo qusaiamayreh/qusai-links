@@ -70,34 +70,26 @@ export default function Home() {
           </a>
 
           <a
-            href="https://wa.me/962776060615"
-            target="_blank"
-            className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
-          >
-
-            <div className="flex items-center gap-4">
-
-  <div className="w-14 h-14 rounded-full border-2 border-green-500 flex items-center justify-center">
-
+  href="https://wa.me/962776060615"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
+>
+  <div className="flex items-center gap-4">
     <FaWhatsapp
       size={26}
       color="#22C55E"
-      className="shrink-0"
     />
 
+    <span className="text-xl font-medium">
+      WhatsApp
+    </span>
   </div>
 
-  <span className="text-xl font-medium">
-    WhatsApp
-  </span>
-
-</div>
-
-          <div className="text-3xl text-white">
-  ›
-</div>
-
-          </a>
+  <div className="text-4xl text-white font-light">
+    ›
+  </div>
+</a>
                     <a
             href="https://www.instagram.com/qs_xr2?igsh=MWlhOWJyNDQ4eDgxMg=="
             target="_blank"
