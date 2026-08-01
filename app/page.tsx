@@ -35,7 +35,7 @@ export default function Home() {
             Qusai Amayreh
           </h1>
 
-          <p className="mt-3 text-center text-xl font-medium text-violet-400">
+          <p className="mt-3 text-center font-medium font-medium text-violet-400">
             IT Student
           </p>
 
@@ -47,7 +47,7 @@ export default function Home() {
 
           <a
             href="mailto:engqusaiamayreh@gmail.com"
-            className="flex items-center justify-between rounded-2xl border border-violet-500 bg-[#141414] px-5 py-4 transition hover:scale-[1.02]"
+            className="flex items-center justify-between rounded-3xl border border-violet-500 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
           >
 
             <div className="flex items-center gap-4">
@@ -63,7 +63,7 @@ export default function Home() {
 
             </div>
 
-            <div className="text-4xl text-white font-light">
+            <div className="text-3xl text-white font-light">
   ›
 </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
           <a
             href="https://wa.me/962776060615"
             target="_blank"
-            className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#111111] px-6 py-6 transition duration-300 hover:scale-[1.03]"
+            className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
           >
 
             <div className="flex items-center gap-4">
@@ -80,8 +80,9 @@ export default function Home() {
   <div className="w-16 h-16 rounded-full border-2 border-green-500 flex items-center justify-center">
 
     <FaWhatsapp
-      size={24}
+      size={26}
       color="#22C55E"
+      className="shrink-0"
     />
 
   </div>
@@ -100,10 +101,10 @@ export default function Home() {
                     <a
             href="https://www.instagram.com/qs_xr2?igsh=MWlhOWJyNDQ4eDgxMg=="
             target="_blank"
-            className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#111111] px-6 py-5 transition duration-300 hover:scale-[1.03]"
+            className="flex items-center justify-between rounded-3xl border border-pink-500 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
           >
             <div className="flex items-center gap-4">
-              <FaInstagram size={28} color="#EC4899" />
+              <FaInstagram size={26} color="#EC4899" className="shrink-0"/>
               <span className="text-xl">Instagram</span>
             </div>
 
@@ -115,10 +116,10 @@ export default function Home() {
           <a
             href="https://www.facebook.com/share/1EcpYXbxgn/"
             target="_blank"
-            className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#111111] px-6 py-5 transition duration-300 hover:scale-[1.03]"
+           className="flex items-center justify-between rounded-3xl border border-blue-500 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
           >
             <div className="flex items-center gap-4">
-              <FaFacebookF size={28} color="#1877F2" />
+              <FaFacebookF size={26} color="#1877F2" className="shrink-0"/>
               <span className="text-xl">Facebook</span>
             </div>
 
@@ -130,10 +131,10 @@ export default function Home() {
           <a
             href="https://www.snapchat.com/add/qs_xr2?share_id=OKMzmAoVEyM&locale=ar-JO-u-nu-latn"
             target="_blank"
-            className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#111111] px-6 py-5 transition duration-300 hover:scale-[1.03]"
+            className="flex items-center justify-between rounded-3xl border border-yellow-400 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
           >
             <div className="flex items-center gap-4">
-              <FaSnapchatGhost size={28} color="#FFD600" />
+              <FaSnapchatGhost size={26} color="#FFD600"className="shrink-0" />
               <span className="text-xl">Snapchat</span>
             </div>
 
@@ -145,10 +146,10 @@ export default function Home() {
           <a
             href="https://www.linkedin.com/in/qusai-amayreh2004?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
-            className="flex items-center justify-between rounded-3xl border border-green-500 bg-[#111111] px-6 py-5 transition duration-300 hover:scale-[1.03]"
+            className="flex items-center justify-between rounded-3xl border border-sky-500 bg-[#141414] px-6 py-6 transition duration-300 hover:scale-[1.03]"
           >
             <div className="flex items-center gap-4">
-              <FaLinkedinIn size={28} color="#0A66C2" />
+              <FaLinkedinIn size={26} color="#0A66C2"className="shrink-0" />
               <span className="text-xl">LinkedIn</span>
             </div>
 
